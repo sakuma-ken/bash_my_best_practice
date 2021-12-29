@@ -1,6 +1,5 @@
-#!/bin/bash
+#!/bin/bash -x
 set -euo pipefail
-
 
 date | cat -n
 date | cat -m

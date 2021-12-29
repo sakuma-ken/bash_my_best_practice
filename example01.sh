@@ -1,6 +1,5 @@
-#!/bin/bash
+#!/bin/bash -x
 set -e
-
 
 date
 data
