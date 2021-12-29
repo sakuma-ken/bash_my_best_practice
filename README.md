@@ -1,8 +1,8 @@
 # bash_my_best_practice
 bashの私的ベストプラクティス
 
-> #!/bin/bash
-> set -euo pipefail
+> #!/bin/bash  
+> set -euo pipefail  
 
 ## set -e
 エラーが起きたら処理を止める.   
