@@ -2,9 +2,9 @@
 set -euo pipefail
 
 
-date | date
-date | data
+date | cat -n
+date | cat -m
 
-# dataでエラーになるので次の行は実行されない
+# 'cat -m'でエラーになるので次の行は実行されない
 date
 
